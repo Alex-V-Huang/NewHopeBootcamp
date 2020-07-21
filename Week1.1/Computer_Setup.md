@@ -28,3 +28,9 @@ Download Git [here](https://git-scm.com/downloads).
 - VS Code is one of many different code editors out there.
 
 Download VS Code [here](https://code.visualstudio.com/download).
+
+## Google Chrome
+- This is the browser we will use to display our websites.
+- With everyone using the same browser, it is a lot easier to help one another when we run into problems.
+
+Download Google Chrome [here](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en).
