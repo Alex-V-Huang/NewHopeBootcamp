@@ -19,4 +19,4 @@ git clone [your-github-exercises-url]
 3. Locate the NewHopeBootcamp folder on your computer.
 4. Click "Add".
 5. Go NewHopeBootcamp > Week1 > Week1.2 > index.html
-6. Make some changes to the file!
+6. Make some changes to the file by following the comments! View your changes by opening the file with Google Chrome.
