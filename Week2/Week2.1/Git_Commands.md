@@ -8,8 +8,9 @@
 ## Making Changes to Your Repository
 - There are three steps to follow when making changes to your repository. These are adding, committing and pushing your changes.
 - These steps are important to run through regularly for both your website project repository and exercises repository.
+- Make sure you already have navigated to a repository in the command line.
 
-1. The first thing to do is to check the status of our repository.
+1. The first thing to do is to check the status of your repository.
 
 - Run ```git status```. This may reveal a list of changed or "untracked" files in red, as well what to do next.
 
@@ -25,7 +26,7 @@ In this case, my Week2 folder is untracked and needs to be added to the reposito
 
 - Files can also be added one by one. This can be done by running ```git add [your-file-name]```. This is useful if there are certain changed files that you do not want to save in your repository.
 
-3. Let's check the status of our repository now.
+3. Let's check the status of your repository now.
 
 - Run ```git status```. This will reveal a list of added files in green, as well what to do next.
 
@@ -41,7 +42,7 @@ In this case, three files have been added and are ready to be committed to the r
 
 In this case, four files have been successfully committed to the repository.
 
-5. Let's check on our repository's status again.
+5. Let's check on your repository's status again.
 
 - Run ```git status```. This will reveal a message stating there is a commit(s) ready to be published or "pushed".
 
@@ -57,7 +58,7 @@ In this case, three files have been added and are ready to be committed to the r
 
 The message also includes the URL of your repository stored on GitHub.
 
-7. To double check you successfully published your changes, visit our repository on GitHub.
+7. To double check you successfully published your changes, visit your repository on GitHub.
 
 ![repository on GitHub](images/github_repo.jpg)
 
