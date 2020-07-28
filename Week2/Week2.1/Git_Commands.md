@@ -56,4 +56,12 @@ In this case, three files have been added and are ready to be committed to the r
 
 The message also includes the URL of your repository stored on GitHub.
 
-7. To double check we successfully published our changes, we can visit our repository on GitHub.
+7. To double check you successfully published your changes, visit our repository on GitHub.
+
+![repository on GitHub](images/github_repo.jpg)
+
+Your latest published change is in light blue, along with the message you attached to it and a timestamp.
+
+- If you are interested in your latest commit, you can click on the message to reveal exactly which lines of code you changed.
+
+- If you are interested in your commit history, click on the total number of commits to view all of your commits to your repository.
