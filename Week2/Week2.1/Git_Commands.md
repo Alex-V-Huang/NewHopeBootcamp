@@ -52,7 +52,7 @@ In this case, three files have been added and are ready to be committed to the r
 
 - Run ```git push```. If successful, a message similar to this one will appear.
 
-![git push message](images/git_push.png)
+![git push message](./images/git_push.png)
 
 The message also includes the URL of your repository stored on GitHub.
 
