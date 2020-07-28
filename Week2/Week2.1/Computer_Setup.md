@@ -31,3 +31,7 @@ In this case, three files have been added and are ready to be committed to the r
 4. Now that your changed files are added, they are ready to be saved or committed to your repository's database on GitHub. Commits include a short message detailing the changes made to your repository.
 
 - Run ```git commit -m "your-message-here"```. Make sure to add a relevant message that helps remind yourself what changes you are making to your repository.
+
+![git status message](images/git_commit.png)
+
+In this case, four files have been successfully committed to the repository.
