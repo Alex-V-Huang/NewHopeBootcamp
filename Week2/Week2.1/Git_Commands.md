@@ -12,7 +12,7 @@
 
 - Run ```git status```. This may reveal a list of changed or "untracked" files in red, as well what to do next.
 
-![git status message](images/git_status.png)
+![git status message](images/git_status.PNG)
 
 In this case, my Week2 folder is untracked and needs to be added to the repository.
 
@@ -20,7 +20,7 @@ In this case, my Week2 folder is untracked and needs to be added to the reposito
 
 - All untracked files can be added using the first method. Run ```git add .```. This is useful if you know you want all of your changed files to be added to your repository. (RECOMMENDED)
 
-![git add message](images/git_add.png)
+![git add message](images/git_add.PNG)
 
 - Files can also be added one by one. This can be done by running ```git add [your-file-name]```. This is useful if there are certain changed files that you do not want to save in your repository.
 
@@ -28,7 +28,7 @@ In this case, my Week2 folder is untracked and needs to be added to the reposito
 
 - Run ```git status```. This will reveal a list of added files in green, as well what to do next.
 
-![git status message](images/git_status_2.png)
+![git status message](images/git_status_2.PNG)
 
 In this case, three files have been added and are ready to be committed to the repository.
 
@@ -36,7 +36,7 @@ In this case, three files have been added and are ready to be committed to the r
 
 - Run ```git commit -m "your-message-here"```. Make sure to add a relevant message that helps remind yourself what changes you are making to your repository.
 
-![git commit message](images/git_commit.png)
+![git commit message](images/git_commit.PNG)
 
 In this case, four files have been successfully committed to the repository.
 
@@ -44,7 +44,7 @@ In this case, four files have been successfully committed to the repository.
 
 - Run ```git status```. This will reveal a message stating there is a commit(s) ready to be published or "pushed".
 
-![git status message](images/git_status_3.png)
+![git status message](images/git_status_3.PNG)
 
 In this case, three files have been added and are ready to be committed to the repository.
 
@@ -52,7 +52,7 @@ In this case, three files have been added and are ready to be committed to the r
 
 - Run ```git push```. If successful, a message similar to this one will appear.
 
-![git push message](./images/git_push.png)
+![git push message](images/git_push.PNG)
 
 The message also includes the URL of your repository stored on GitHub.
 
