@@ -8,7 +8,9 @@
 ## Making Changes to Your Repository
 - There are three steps to follow when making changes to your repository. These are adding, committing and pushing your changes.
 
-1. Run ```git status```. This may reveal a list of changed or "untracked" files in red, as well what to do next.
+1. The first thing to do is to check the status of our repository.
+
+- Run ```git status```. This may reveal a list of changed or "untracked" files in red, as well what to do next.
 
 ![git status message](images/git_status.png)
 
@@ -22,7 +24,9 @@ In this case, my Week2 folder is untracked and needs to be added to the reposito
 
 - Files can also be added one by one. This can be done by running ```git add [your-file-name]```. This is useful if there are certain changed files that you do not want to save in your repository.
 
-3. Run ```git status```. This may reveal a list of added files in green, as well what to do next.
+3. Let's check the status of our repository now.
+
+- Run ```git status```. This will reveal a list of added files in green, as well what to do next.
 
 ![git status message](images/git_status_2.png)
 
@@ -32,6 +36,24 @@ In this case, three files have been added and are ready to be committed to the r
 
 - Run ```git commit -m "your-message-here"```. Make sure to add a relevant message that helps remind yourself what changes you are making to your repository.
 
-![git status message](images/git_commit.png)
+![git commit message](images/git_commit.png)
 
 In this case, four files have been successfully committed to the repository.
+
+5. Let's check on our repository's status again.
+
+- Run ```git status```. This will reveal a message stating there is a commit(s) ready to be published or "pushed".
+
+![git status message](images/git_status_3.png)
+
+In this case, three files have been added and are ready to be committed to the repository.
+
+6. Finally, you are ready to publish or "push" your changes onto GitHub, your repository's database.
+
+- Run ```git push```. If successful, a message similar to this one will appear.
+
+![git push message](images/git_push.png)
+
+The message also includes the URL of your repository stored on GitHub.
+
+7. To double check we successfully published our changes, we can visit our repository on GitHub.
