@@ -48,7 +48,7 @@ In this case, four files have been successfully committed to the repository.
 
 ![git status message](images/git_status_3.PNG)
 
-In this case, three files have been added and are ready to be committed to the repository.
+In this case, my commit was successful and is ready to be published on GitHub.
 
 6. Finally, you are ready to publish or "push" your changes onto GitHub, your repository's database.
 
