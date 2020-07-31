@@ -18,6 +18,13 @@
 
 In this case, my Week2 folder is untracked and needs to be added to the repository.
 
+Sometimes, no changes have been made and there are no untracked files.
+
+![git status up to date](images/git_status_up_to_date.PNG)
+
+If this is the case, please skip steps 2-7 and proceed to "Updating your NewHopeBootcamp Repository Exercises".
+
+
 2. Files are added to a repository using the ```git add``` command. There are two ways of using this command:
 
 - All untracked files can be added using the first method. Run ```git add .```. This is useful if you know you want all of your changed files to be added to your repository. (RECOMMENDED)
@@ -75,7 +82,7 @@ Your latest published change is in light blue, along with the message you attach
 
 1. Open the command line. On Windows, open Git Bash for Windows. On Mac, open Terminal.
 2. Navigate to your NewHopeBootcamp repository. Reminder to use ```cd``` to change directories and ```ls``` to list files. To go up a directory, use ``` cd ../```.
-3. Run ```git remote add upstream https://github.com/Alex-V-Huang/NewHopeBootcamp.git```.
+3. (Note: please skip this step if you have already done this previously) Run ```git remote add upstream https://github.com/Alex-V-Huang/NewHopeBootcamp.git```. 
 4. Run ```git status```. If you have any untracked changes or uncommitted files, please run ```git add .``` and ```git commit -m "your-messsage-here"``` before moving on.
 4. Run ```git pull upstream master```. This will pull any changes that I have made to the exercises repository and add them to your local machine.
 5. Once you are satisfied with running through the exercises, add your own changes to your own NewHopeBootcamp repository on GitHub. These steps are covered in Making Changes to Your Repository.
