@@ -18,6 +18,13 @@
 
 In this case, my Week2 folder is untracked and needs to be added to the repository.
 
+Sometimes, no changes have been made and there are no untracked files.
+
+![git status up to date](images/git_status_up_to_date.PNG)
+
+If this is the case, please skip steps 2-7 and proceed to "Updating your NewHopeBootcamp Repository Exercises".
+
+
 2. Files are added to a repository using the ```git add``` command. There are two ways of using this command:
 
 - All untracked files can be added using the first method. Run ```git add .```. This is useful if you know you want all of your changed files to be added to your repository. (RECOMMENDED)
