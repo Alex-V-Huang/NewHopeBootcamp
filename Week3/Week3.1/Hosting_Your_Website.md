@@ -51,3 +51,15 @@ After saving, the webpage should refresh. Scroll back down to "GitHub Pages". Th
 Refresh the page every other minute. **GitHub Pages may take up to ten minutes to host your website.** If successful, your website has gone live!
 
 ![Successfully hosted website](images/hosted_website.PNG)
+
+
+## Updates to Your Hosted Website
+- Your hosted website will automatically update as you publish new changes to your GitHub repository.
+
+1. On your website repository on GitHub, click on Environments. Environments is in the bottom-right of the page.
+
+![Environments in GitHub repository](images/github_repo_env.jpg)
+
+2. This will reveal the update history of your hosted website. Clicking on any of "View deployment" buttons will take you to your website's current state hosted on GitHub Pages.
+
+![View website deployment history](images/github_env.PNG)
