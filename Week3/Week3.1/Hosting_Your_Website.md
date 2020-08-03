@@ -54,6 +54,7 @@ Refresh the page every other minute. **GitHub Pages may take up to ten minutes t
 
 
 ## Updates to Your Hosted Website
+- You do not need to worry about your hosted website whenever you publish a change to GitHub. Activating GitHub Pages is a one-and-done task!
 - Your hosted website will automatically update as you publish new changes to your GitHub repository.
 
 1. On your website repository on GitHub, click on Environments. Environments is in the bottom-right of the page.
