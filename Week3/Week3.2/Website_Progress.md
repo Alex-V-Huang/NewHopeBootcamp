@@ -46,6 +46,6 @@
 
 - [ ] Add another webpage &rarr; Your website project is likely to expand beyond a homepage. Potential pages include About, Contact Us, Resources, etc. Add relevant pages to your website by creating new ```.html``` files in your website repository, just like how you did with ```index.html```. Feel free to name them however you please (ex: ```about.html```).
 
-- [ ] Adjust how elements occupy space on your website. The box model helps us understand how elements take up space. Modify ```border```, ```padding```, and ```margin``` in your `.css` file to position elements the way you want. Keep in mind there are more ways to change how elements take up space, such as ```float``` and CSS flexbox.
+- [ ] Adjust how elements occupy space on your website &rarr; The box model helps us understand how elements take up space. Modify ```border```, ```padding```, and ```margin``` in your `.css` file to position elements the way you want. Keep in mind there are more ways to change how elements take up space, such as ```float``` and CSS flexbox.
 
-- [ ] Explore what's online and make your ideas a reality! There is so much more to building a website than what we've covered so far!
+- [ ] Explore what's online and make your ideas a reality &rarr; There is so much more to building a website than what we've covered so far!
