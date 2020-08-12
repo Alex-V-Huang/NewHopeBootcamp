@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    /* font for text */
+    font-family: 'Merriweather', serif;
+
+    /* color of text */
+    color: black;
+
+    margin: 0; 
+    
+    /* for sticky footer */
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    /* for sticky footer */
+    flex: 1 0 auto;
+
+    /* for background image */
+    display: block;
+    position: relative;
+}
+
+.footer {
+    /* for sticky footer */
+    flex-shrink: 0;
+
+    padding: .5rem;
+    background-color: #16243b;
+    color: white;
+}
+
+.content::after {
+    /* for background image */
+    content: "";
+    background-image: url("../images/desk-background.jpg");
+    background-repeat: repeat-y;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 30px;
+    display: block;
+    padding-top: 5rem;
+    margin-left: 2rem;
+}
+
+h2 {
+    background-color: #e75d14;
+    font-size: 25px;
+
+    display: block;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.caption-name {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.caption-title {
+    font-size: 15px;
+}
+
+/* img {
+    float: none;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+} */
+
+.team-portrait {
+    float: none;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: .75rem;
+    background-color: #16243b;
+    z-index: 1000000000;
+}
+
+/* applies to <li> elements inside a <nav> element */
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.nav_item {
+    /* remove the underline for a hyperlink */
+    color: white;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-item {
+    padding: 1rem;
+    text-align: center;
+}
+
+.staff-category-text {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 7rem;
+}
+
+.slideshow-container {
+    max-width: 600px;
+    max-height: 400px;
+
+    margin: 5rem;
+}
+
+.slides {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: none;
+
+    /* rounded corners */
+    border-radius: 3rem;
+}
