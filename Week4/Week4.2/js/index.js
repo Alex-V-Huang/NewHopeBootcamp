@@ -30,6 +30,23 @@ function slideshow() {
     setTimeout(slideshow, 2000);
 }
 
+// Write a function that changes the height and width of an image based on user input
+function changeImageSize() {
+
+    // Get values for user-inputed height and width
+
+    // Get the images
+
+    // Change the width and height style properties for each image
+
+    // Let the user know they were successful in changing the size. Create a <p> tag.
+
+    // Add meaningful content that lets the user know what size the image was changed it to.
+
+    // Add the <p> tag to the DOM
+
+}
+
 // Create variable to keep track of current displayed image
 var slideIndex2 = 0;
 

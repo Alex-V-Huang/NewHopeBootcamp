@@ -200,6 +200,14 @@ nav li {
     border-radius: 3rem;
 }
 
+.container-change-image-size {
+    margin-left: 5rem;
+}
+
+button {
+    margin-top: 1rem;
+}
+
 .displayed-slide {
     max-width: 600px;
     max-height: 400px;
