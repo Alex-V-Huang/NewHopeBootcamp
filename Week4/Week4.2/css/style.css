@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    /* font for text */
+    font-family: 'Merriweather', serif;
+
+    /* color of text */
+    color: black;
+
+    margin: 0; 
+    
+    /* for sticky footer */
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    /* for sticky footer */
+    flex: 1 0 auto;
+
+    /* for background image */
+    display: block;
+    position: relative;
+}
+
+.footer {
+    /* for sticky footer */
+    flex-shrink: 0;
+
+    /* thickness of footer */
+    padding: .5rem;
+    background-color: #16243b;
+    color: white;
+
+    border-top: .15rem solid #e75d14;
+    box-shadow: 0px 1px 5px black;
+}
+
+.background::after {
+    /* for background image */
+    content: "";
+    background-image: url("../images/wood-background2.jpg");
+    background-repeat: repeat-y;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* .content {
+    margin-left: 5rem;
+    margin-right: 5rem; 
+} */
+
+h1 {
+    font-size: 30px;
+    display: block;
+    padding-top: 7rem;
+    margin-left: 2rem;
+}
+
+h2 {
+    background-color: #e75d14;
+    font-size: 25px;
+
+    display: block;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    /* navbar thickness */
+    padding: .75rem;
+
+    background-color: #16243b;
+    z-index: 1000000000;
+
+    border-bottom: .15rem solid #e75d14;
+    box-shadow: 0px 1px 5px black;
+}
+
+nav ul {
+    /* shift nav links to the right of the logo */
+    margin-left: 7rem;
+}
+
+/* applies to <li> elements inside a <nav> element */
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.nav_item {
+    /* remove the underline for a hyperlink */
+    color: white;
+    text-decoration: none;
+}
+
+/* nav links will change color on hover */
+.nav_item:hover {
+    color: #e75d14;
+}
+
+#logo {
+    position: fixed;
+    top: .25rem;
+    left: 2rem;
+    height: 100px;
+    width: 100px;
+    z-index: 100000000000;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.odd-background {
+    background-color:rgb(132, 141, 156);
+}
+
+.even-background {
+    background-color: rgb(229, 230, 233);
+}
+
+.flex-item {
+    padding: 1rem;
+    text-align: center;
+}
+
+.caption-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.caption-title {
+    font-size: 15px;
+    margin-top: .5rem;
+    margin-bottom: 0;
+}
+
+.team-portrait {
+    float: none;
+    width:  275px;
+    height: 275px;
+    object-fit: cover;
+
+    /* rounded corners */
+    border-radius: 3rem; 
+
+    border: .10rem solid #e75d14;
+    box-shadow: 0px .5px 5px black;
+}
+
+.staff-category-text {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0rem 2rem;
+    padding: 8rem 0rem;
+    text-align: center;
+}
+
+.slideshow-container {
+    max-width: 600px;
+    max-height: 400px;
+
+    margin: 5rem;
+}
+
+.slides {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: none;
+
+    /* rounded corners */
+    border-radius: 3rem;
+}
+
+.container-change-image-size {
+    margin-left: 5rem;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+.displayed-slide {
+    max-width: 600px;
+    max-height: 400px;
+
+    width: 50%;
+    margin: 0 auto;
+}
+
+.slides2 {
+    width: 600px; 
+    height: 400px;
+    object-fit: cover;
+
+    /* Hide all images */
+
+    /* Add rounded corners */
+    border-radius: 3rem;
+}
+
+.slideshow-container-2 {
+    display: inline-block;
+}
+
+/* Display a default selected image when webpage loads */
+.default-slide {
+
+}
+
+.slideshow-indicator {
+    display: flex;
+}
+
+.slideshow-selector {
+    width: 200px;
+    height: 133px;
+
+    margin: 1rem 2rem;
+
+    /* Display a pointer cursor when hovering over */
+
+    /* Add rounded corners */
+}
+
+/* Add faded effect when hovering over image selector */
+.slideshow-selector:hover {
+
+}
