@@ -35,15 +35,27 @@ function changeImageSize() {
 
     // Get values for user-inputed height and width
 
+    let width = document.getElementById('width').value;
+    let height = document.getElementById('height').value;
+
     // Get the images
 
-    // Change the width and height style properties for each image
+    let slides = document.getElementsByClassName("slides");
 
+    // Change the width and height style properties for each image
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.width = width;
+        slides[i].style.height = height;
+    }
     // Let the user know they were successful in changing the size. Create a <p> tag.
 
-    // Add meaningful content that lets the user know what size the image was changed it to.
+    let p = document.createElement("p");
 
+    // Add meaningful content that lets the user know what size the image was changed it to.
+    p.innerHTML = "You have changed the image to " + width + " by " + height + ".";
     // Add the <p> tag to the DOM
+    let results = document.getElementById("results");
+    resulta.appendChild(p);
 
 }
 
