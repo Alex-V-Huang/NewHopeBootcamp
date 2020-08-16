@@ -27,22 +27,17 @@ body {
 }
 
 h1 {
-
     /* Set the font size to 30 pixels */
-    font-size: 30px;
-
 
 }
 
 h2 {
     /* Set the font size to 25 pixels */
-    font-size: 25px;
 
 }
 
 h3 {
     /* Set the font size to 20 pixels */
-    font-size: 20px;
 
 }
 
@@ -54,14 +49,11 @@ p {
 
 .caption-name {
     /* set font size to 15 pixels and make text bold */
-    font-size: 15px;
-    font-weight: bold;
 
 }
 
 .caption-title {
     /* set font size to 13 pixels */
-    font-size: 13px;
 
 }
 
@@ -72,7 +64,7 @@ img {
     object-fit: cover;
 }
 
-.container {
+/* .container {
     display: inline-block;
 }
 
@@ -89,4 +81,4 @@ nav {
 nav li {
     display: inline;
     margin-right: 1rem;
-}
+} */
