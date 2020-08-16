@@ -93,41 +93,34 @@ nav li {
 
 .nav_item {
     /* remove the underline for a hyperlink */
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .flex-container {
 
     /* Parent must have display set to flex */
-    display: flex;
 
     /* Set flex-direction to row */
-    flex-direction: row;
 
     /* Center each row on the page (hint: justify-content) */
-    justify-content: center;
+
 }
 
 .flex-item {
 
     /* Set all-around margin to 1rem */
-    margin: 1rem;
 
     /* Make names and titles centered with pictures 
     (hint: text-align) */
-    text-align: center;
     
 }
 
 .staff-category-text {
 
     /* Set font-weight to bold */
-    font-weight: bold;
 
     /* Set font-size to 40 px */
-    font-size: 40px;
 
     /* Add all-around margin of 7rem */
-    margin: 7rem;
 
 }
