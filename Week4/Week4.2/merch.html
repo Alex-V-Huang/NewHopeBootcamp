@@ -45,7 +45,13 @@
                     3. Add an event listener in the button.
                  -->
                 <div class="container-change-image-size">
-                    
+                    <form>
+                        <p>Height</p>
+                        <input type="text" name="height" id="height" value="400px">
+                        <p>Width</p>
+                        <input type="text" name="width" id="width" value="600px">
+                    </form>
+                    <button onClick="changeImageSize()">Go</button>
     
                     <div id="results"></div>
                 </div>
@@ -68,6 +74,24 @@
                     3. Allow the image selectors to be clickable and change the displayed image. Be sure
                     to add onClick event handlers!
                  -->
+
+                <div class="slideshow-container-2">
+                    <div class="displayed-slide">
+                        <img class="slides2" src="images/merch/team_hill.PNG" alt="team wearing merch on a hill">
+                        <img class="slides2" src="images/merch/team_mountain.PNG" alt="team wearing merch on a mountain">
+                        <img class="slides2 default-slide" src="images/merch/team_kitchen.PNG" alt="team wearing merch in a kitchen">
+                        <img class="slides2" src="images/merch/team_gym.PNG" alt="team wearing merch on a mountain">
+                        <img class="slides2" src="images/merch/team_desert.PNG" alt="team wearing merch in a desert">
+                    </div>
+
+                    <div class="slideshow-indicator">
+                        <img class="slideshow-selector" src="images/merch/team_hill.PNG" alt="team wearing merch on a hill" onClick="currentImage(1)">
+                        <img class="slideshow-selector" src="images/merch/team_mountain.PNG" alt="team wearing merch on a mountain" onClick="currentImage(2)">
+                        <img class="slideshow-selector" src="images/merch/team_kitchen.PNG" alt="team wearing merch in a kitchen" onClick="currentImage(3)">
+                        <img class="slideshow-selector" src="images/merch/team_gym.PNG" alt="team wearing merch on a mountain" onClick="currentImage(4)">
+                        <img class="slideshow-selector" src="images/merch/team_desert.PNG" alt="team wearing merch in a desert" onClick="currentImage(5)">
+                    </div>
+                </div>
                 
 
 

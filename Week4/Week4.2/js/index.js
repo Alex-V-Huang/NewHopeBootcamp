@@ -34,17 +34,30 @@ function slideshow() {
 function changeImageSize() {
 
     // Get values for user-inputed height and width
+    let width = document.getElementById('width').value;
+    let height = document.getElementById('height').value;
+
+    // console.log(width);
+    // console.log(height);
 
     // Get the images
+    let slides = document.getElementsByClassName("slides");
 
     // Change the width and height style properties for each image
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.width = width;
+        slides[i].style.height = height;
+    }
 
     // Let the user know they were successful in changing the size. Create a <p> tag.
+    let p = document.createElement("p");
 
     // Add meaningful content that lets the user know what size the image was changed it to.
+    p.innerHTML = "You have changed the image to " + width + " by " + height + ".";
 
     // Add the <p> tag to the DOM
-
+    let results = document.getElementById("results");
+    results.appendChild(p);
 }
 
 // Create variable to keep track of current displayed image
@@ -53,16 +66,22 @@ var slideIndex2 = 0;
 // Write a function to update the current displayed image
 function currentImage(number) {
     // Update slideIndex2
+    slideIndex2 = number;
 
     // Update the actual image
-
+    showImage(slideIndex2)
 }
 
 // Write a funtion to change the displayed image
 function showImage(n) {
     // Select all images in the second slideshow
+    let slides = document.getElementsByClassName("slides2");
 
     // Hide all images from displaying on page
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
 
     // Display the selected image
+    slides[n-1].style.display = "block";
 }
