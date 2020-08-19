@@ -65,16 +65,20 @@ var slideIndex2 = 0;
 // Write a function to update the current displayed image
 function currentImage(number) {
     // Update slideIndex2
+    slideIndex2 = number;
 
     // Update the actual image
+    showImage(slideIndex2);
 
 }
 
 // Write a funtion to change the displayed image
 function showImage(n) {
     // Select all images in the second slideshow
-
+    let slides = document.getElementsByClassName("slides2");
     // Hide all images from displaying on page
-
+    for (let i =0; i < slides.length; i++);
+        slides[i].style.display = "none";
     // Display the selected image
+    slides[n-1].style.display = "block";
 }
