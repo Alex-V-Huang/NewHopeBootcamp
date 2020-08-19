@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Title of the tab -->
+        <title>NHPB 2020</title>
+
+        <!-- Tab favicon -->
+        <link rel="icon" href="images/favicon.png">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <div class="background">
+
+            <a href="index.html"><img id="logo" src="images/logo_orange_blue.png" alt="NHPB logo"></a>
+            <nav>
+                <ul>
+                    <li><a class="nav_item" href="index.html">Home</a></li>
+                    <li><a class="nav_item" href="project.html">Projects</a></li>
+                    <li><a class="nav_item" href="merch.html">Merchandise</a></li>
+                    <li><a class="nav_item" href="about.html">About</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="content">
+                
+                <h1>Merchandise</h1>
+
+                <h2>Automatic Slideshow</h2>
+                
+                <div class="container-change-image-size">
+                    <form>
+                        <p>Height</p>
+                        <input type="text" name="width" id="width" value="600px">
+                        <p>Width</p>
+                        <input type="text" name="height" id="height" value="400px">
+                    </form>
+    
+                    <button onclick="changeImageSize()">Go</button>
+    
+                    <div id="results"></div>
+                </div>
+
+                <div class="slideshow-container">
+                    <img class="slides" src="images/merch/team_hill.PNG" alt="team wearing merch on a hill">
+                    <img class="slides" src="images/merch/team_mountain.PNG" alt="team wearing merch on a mountain">
+                    <img class="slides" src="images/merch/team_kitchen.PNG" alt="team wearing merch in a kitchen">
+                    <img class="slides" src="images/merch/team_gym.PNG" alt="team wearing merch on a mountain">
+                    <img class="slides" src="images/merch/team_desert.PNG" alt="team wearing merch in a desert">
+                </div>
+
+                <h2>Manual Slideshow w/ Image Indicators</h2>
+
+                <div class="slideshow-container-2">
+                    <div class="displayed-slide">
+                        <img class="slides2" src="images/merch/team_hill.PNG" alt="team wearing merch on a hill">
+                        <img class="slides2" src="images/merch/team_mountain.PNG" alt="team wearing merch on a mountain">
+                        <img class="slides2 default-slide" src="images/merch/team_kitchen.PNG" alt="team wearing merch in a kitchen">
+                        <img class="slides2" src="images/merch/team_gym.PNG" alt="team wearing merch on a mountain">
+                        <img class="slides2" src="images/merch/team_desert.PNG" alt="team wearing merch in a desert">
+                    </div>
+    
+                    <div class="slideshow-indicator">
+                        <img class="slideshow-selector" src="images/merch/team_hill.PNG" alt="team wearing merch on a hill" onClick=currentImage(1)>
+                        <img class="slideshow-selector" src="images/merch/team_mountain.PNG" alt="team wearing merch on a mountain" onClick=currentImage(2)>
+                        <img class="slideshow-selector" src="images/merch/team_kitchen.PNG" alt="team wearing merch in a kitchen" onClick=currentImage(3)>
+                        <img class="slideshow-selector" src="images/merch/team_gym.PNG" alt="team wearing merch on a mountain" onClick=currentImage(4)>
+                        <img class="slideshow-selector" src="images/merch/team_desert.PNG" alt="team wearing merch in a desert" onClick=currentImage(5)>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <footer class="footer">&#169; 2020 New Hope Youth</footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
