@@ -102,3 +102,7 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+function openWebsite() {
+    window.open('https://cora-png.github.io/fortunecookie/index.html', '_blank');
+}
