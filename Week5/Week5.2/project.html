@@ -39,17 +39,32 @@
                 
                 <h1>Website Projects</h1>
 
+                <!-- Working with Modals
+                    1. Include a modal that opens when clicking on a card
+                    2. Write the onClick function that displays the modal
+                    3. Add content within the modal
+                    4. Write the onClick function that hides the modal -->
+
                 <!-- The Modal -->
                 <div id="myModal" class="modal">
                     <!-- Modal content -->
                     <div class="modal-content">
                         <span class="close" onClick="closeModal()">&times;</span>
+
+                        <!-- Add website logo, title, owner, and description -->
+
                         <div class="project-logo-container">
                             <img class="project-logo" src="images/project/logo_cora.png" alt="Cora's website logo">
                         </div>
                         <p class="project-title">badbookreviews</p>
                         <p class="project-owner">Cora Supasatit</p>
                         <p class="project-desc">A collection of reviews I've created on books I've read over the years</p>
+
+                        <!-- Add a button with an onClick that opens website in a new tab
+                            1. Create button
+                            2. Add onClick function
+                            3. Incorporate "open in new tab" favicon -->
+
                         <button class="go-to-project" onClick="openWebsite()">
                             Go to Website 
                             <i class="fas fa-external-link-alt"></i>
@@ -58,6 +73,7 @@
                 </div>
 
                 <div class="grid">
+                    <!-- Add onClick function to open the modal -->
                     <div class="project-card" onClick="openModal()">
                         <div class="project-logo-container">
                             <img class="project-logo" src="images/project/logo_cora.png" alt="Cora's website logo">

@@ -104,5 +104,6 @@ window.onclick = function(event) {
 }
 
 function openWebsite() {
+    // Open the website in a new tab
     window.open('https://cora-png.github.io/fortunecookie/index.html', '_blank');
 }
